@@ -1,3 +1,9 @@
 # this is backend project for learning new tech
 
 Node js and JavaScript
+
+👋 Hi, I’m @kamranAnsari12 👀
+I’m interested in learning new things ... 🌱
+I’m currently learning ... 💞️
+I’m looking to collaborate on ...
+📫 How to reach me ...
