@@ -6,7 +6,7 @@ Node js and JavaScript
 
 I’m interested in learning new things ... 🌱
 
-I’m currently learning ... Node.Js 💞️
+I’m currently learning ... Node.Js and JavaScript 💞️
 
 I’m looking to collaborate on ... BackEnd Projects
 
