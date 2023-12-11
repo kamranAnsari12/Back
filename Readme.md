@@ -1,4 +1,4 @@
-# this is backend project for learning new tech
+# this is backend project As of Node js
 
 Node js and JavaScript
 
