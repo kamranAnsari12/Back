@@ -1,16 +1,18 @@
-import mongoose from "mongoose";
-import  express  from "express";
-import { DB_Name } from "./constants.js";
+
 import dotenv from "dotenv";
+import connectDb from "./db/index.js";
 dotenv.config();
-const app=express();
+connectDb();
+// const app=express();
 
 
+//below commented code will work fine just commented to get new ways to connection
 
+/*
 ;(
   async ()=>{ 
   try {
-    let conn=process.env.MONGODB_URL;
+    // let conn=process.env.MONGODB_URL;
     await mongoose.connect(`${process.env.MONGODB_URL}/${DB_Name}`);
       app.on("error",(error)=> 
      { 
@@ -26,3 +28,4 @@ const app=express();
     throw error;
   }
 })()  //effie
+*/
