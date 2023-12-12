@@ -12,7 +12,7 @@ const app=express();
   try {
     let conn=process.env.MONGODB_URL;
     await mongoose.connect(`${process.env.MONGODB_URL}/${DB_Name}`);
-      app.on("error",(error)=>
+      app.on("error",(error)=> 
      { 
        console.log("error",error);
        throw error
