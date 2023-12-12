@@ -5,25 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 const app=express();
 
-// app.listen(process.env.PORT,()=>
-// {
-//   console.log(`connect with ${process.env.PORT},${process.env.MONGODB_URL}`);
-// })
-// testing 
-/*try {
- put mongoose.connect("string")
-  app.on("error",(error)=>
-  {
-    app.error("error",error)
-    throw error
-  })
-  app.listen(4872,()=> 
-  {
-    console.log("connection on !!!!");
-  })
-} catch (error) {
-  console.log("error on connection",error);
-}*/
+
 
 ;(
   async ()=>{ 
