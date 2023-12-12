@@ -4,7 +4,7 @@ Node js and JavaScript
 
 👋 Hi, I’m @kamranAnsari12 from Ht 👀
 
-I’m interested in learning new things ... 🌱
+I’m interested in learning new things ... but Open Source 🌱
 
 I’m currently learning ... Node.Js and JavaScript 💞️
 
