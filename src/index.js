@@ -11,7 +11,7 @@ const app=express();
 // })
 // testing 
 /*try {
-  mongoose.connect("mongodb+srv://Db:Password@back.eqi7dob.mongodb.net/Backs")
+ put mongoose.connect("string")
   app.on("error",(error)=>
   {
     app.error("error",error)
