@@ -9,12 +9,27 @@ const app=express();
 // {
 //   console.log(`connect with ${process.env.PORT},${process.env.MONGODB_URL}`);
 // })
+// testing 
+/*try {
+  mongoose.connect("mongodb+srv://Back:Back@back.eqi7dob.mongodb.net/Backs")
+  app.on("error",(error)=>
+  {
+    app.error("error",error)
+    throw error
+  })
+  app.listen(4872,()=> 
+  {
+    console.log("connection on !!!!");
+  })
+} catch (error) {
+  console.log("error on connection",error);
+}*/
 
 ;(
   async ()=>{ 
   try {
     let conn=process.env.MONGODB_URL;
-    await mongoose.connect(`${process.env.MONGODB_URL}`);
+    await mongoose.connect(`${process.env.MONGODB_URL}/${DB_Name}`);
       app.on("error",(error)=>
      { 
        console.log("error",error);
